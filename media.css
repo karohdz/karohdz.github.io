@@ -1,0 +1,333 @@
+@media (min-width: 0px) and (max-width: 800px) {
+
+  .main-name {
+    display: none;
+  }
+
+  nav {
+    justify-content: space-around;
+  }
+
+  .nav-text {
+    margin: 1.8rem 2vw 1vw 2vw;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .nav-text::after {
+    bottom: -.5px; 
+  }
+
+  .nav-icon-link {
+    margin-right: -1.5rem;
+    margin-left: 2rem;
+  }
+
+  .intro-info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .intro-description {
+    margin: 3vw 2.5vw 3vw 3.7vw;
+  }
+
+  .intro-description p {
+    font-size: 1.15em;
+  }
+
+  .intro-description h2 {
+    font-size: 2.5em;
+    margin-top: 4px;
+  }
+
+  .intro-long-text {
+    margin-top: 3vw;
+  }
+
+  .intro-images{
+    margin: 1vw 0vw 4vw 0vw;
+  }
+
+  .intro-image {
+    max-width: 450px;
+    height: 32vh;
+  }
+
+  .about-info {
+    height: 85vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-images {
+    margin: 3vw 2vw 2vw 6vw;
+  }
+
+  .about-image-one {
+    margin-top: .1vw;
+    margin-left: -4vw;
+    width: 220px;
+    height: 180px;
+  }
+
+  .about-image-two {
+    margin-top: .1vw;
+    margin-left: 3vw;
+    width: 220px;
+    height: 180px;
+  }
+
+  .about-description {
+    margin: 1.4vw 6vw 2vw 4vw;
+  }
+
+  .about-description h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .about-description p {
+    max-width: 500px;
+    margin-top: 1.5vw;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .projects-info {
+    flex-direction: column;
+    height: 70vh;
+  }
+
+  .projects-description {
+    align-items: center;
+    text-align: center;
+    margin-top: .5vw;
+    margin-bottom: 0vw;
+  }
+
+  .projects-description h2 {
+    font-size: 2em;
+  }
+
+  .projects-description p  {
+    
+    font-size: 1.1em;
+  }
+
+  .projects-button button {
+    padding: 1.1rem 3rem 1.1rem 3rem;
+    font-size: 17px;
+    color: rgb(238, 237, 237);
+    font-weight: 500;
+    border-radius: 30px;
+    background-color: #665e65;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Box shadow to create floating effect */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .skills-info {
+    height: 115vh;
+  }
+
+  .skills-info h2 {
+    margin-top: 9vw;
+
+    font-size: 2em;
+  }
+
+
+  .all-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skills-box {
+    width: 50%;
+    margin: 2.5vw 0vw 1vw 0vw;
+  }
+
+  .skills-box img {
+    display: none;
+  }
+
+  .skills-box h4 {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 1vw;
+  }
+
+  .skills-box ul li { 
+    font-size: 1em;
+  }
+
+  .education-info {
+    height: 105vh;
+  }
+
+  .education-info h2 {
+    font-size: 2em;
+    margin-top: 9vw;
+    margin-bottom: 0vw;
+  }
+
+  .all-education {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-education {
+    text-align: center;
+    margin-top: 5vw;
+    margin-bottom: 4vw;
+  }
+
+  .grad-hat {
+    display: none;
+  }
+
+  .education-box {
+    padding: 2vw 3vw 1.5vw 3vw;
+    width: 50%;
+  }
+
+  .footer {
+    margin-top: 4vw;
+  }
+}
+
+
+@media (min-width: 801px) and (max-width: 1150px) {
+  
+  .main-name {
+    display: none;
+  }
+
+  nav {
+    justify-content: space-around;
+  }
+
+  .intro-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro-description {
+    margin: 8vw 2.5vw 3vw 3.7vw;
+  }
+
+  .intro-description h2 {
+    margin-top: 1vw;
+  }
+
+  .intro-images{
+   
+    margin: 1vw 0vw 4vw 0vw;
+  }
+
+  .intro-image {
+    max-width: 500px;
+    height: 40vh;
+  }
+
+  .about-info {
+    height: 85vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-image-one {
+    margin-top: .1vw;
+    margin-left: -4vw;
+    width: 260px;
+    height: 200px;
+  }
+
+  .about-image-two {
+    margin-top: .1vw;
+    margin-left: 3vw;
+    width: 260px;
+    height: 200px;
+  }
+
+  .about-description {
+    margin: 1vw 6vw 2vw 4vw;
+  }
+  .about-description h2 {
+    text-align: center;
+  }
+
+  .about-description p {
+    max-width: 500px;
+    margin-top: 1vw;
+    text-align: center;
+  }
+
+  .projects-info {
+    flex-direction: column;
+    height: 70vh;
+  }
+
+  .projects-description {
+    align-items: center;
+    text-align: center;
+    margin-top: .5vw;
+    margin-bottom: 0vw;
+  }
+
+  .skills-info {
+    height: 115vh;
+  }
+
+  .all-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skills-box {
+    width: 50%;
+    margin: 1.2vw 0vw 1vw 0vw;
+  }
+
+  .skills-box img {
+    display: none;
+  }
+
+  .skills-box h4 {
+    text-align: center;
+  }
+
+  .education-info {
+    height: 110vh;
+  }
+
+  .all-education {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-education {
+    text-align: center;
+  }
+
+  .grad-hat {
+    top: 10.5vw;
+    left: 34vw;
+  }
+
+  .footer {
+    margin-top: 2vw;
+  }
+}
+
