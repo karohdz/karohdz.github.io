@@ -1,4 +1,4 @@
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 700px) { /* for small screens */
 
   .main-name {
     display: none;
@@ -204,7 +204,7 @@
 }
 
 
-@media (min-width: 801px) and (max-width: 1150px) {
+@media (min-width: 701px) and (max-width: 1270px) { /* for medium screens like tablet*/
   
   .main-name {
     display: none;
@@ -331,3 +331,57 @@
   }
 }
 
+/* default css is for mac 13inch screen */
+
+
+
+@media (min-width: 1350px) and (min-height: 800px) { /* for large screens*/
+  .intro-info {
+    height: 75vh;
+
+  }
+
+  .intro-image {
+    height: 50vh;
+  }
+
+  .about-info {
+    height: 50vh;
+  }
+
+  .projects-info {
+    height: 32vh;
+  }
+
+  .projects-description {
+    margin: 5vw 7vw 2vw 7vw;
+
+}
+
+  .projects-button {
+    margin: 3.5vw 7vw 2vw 7vw;
+  
+  }
+
+  .skills-info {
+    height: 50vh;
+  }
+
+  .education-info {
+    height: 60vh;
+  }
+
+  .info p {
+    margin-bottom: 2vw;
+
+  }
+
+  footer {
+    height: 27vh;
+  }
+
+  .footer {
+    margin-top: 1.5vw;
+  }
+
+}
