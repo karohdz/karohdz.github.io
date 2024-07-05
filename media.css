@@ -98,6 +98,8 @@
 
   .projects-info {
     flex-direction: column;
+    align-items: center;
+
     height: 70vh;
   }
 
@@ -132,6 +134,7 @@
 
   .skills-info {
     height: 115vh;
+   
   }
 
   .skills-info h2 {
@@ -204,7 +207,7 @@
 }
 
 
-@media (min-width: 701px) and (max-width: 1270px) { /* for medium screens like tablet*/
+@media (min-width: 701px) and (max-width: 1275px) { /* for medium screens like tablet*/
   
   .main-name {
     display: none;
@@ -335,7 +338,9 @@
 
 
 
-@media (min-width: 1350px) and (min-height: 800px) { /* for large screens*/
+
+
+@media (min-width: 1500px) {
   .intro-info {
     height: 75vh;
 
@@ -385,3 +390,4 @@
   }
 
 }
+

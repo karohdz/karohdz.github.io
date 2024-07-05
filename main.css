@@ -140,6 +140,10 @@ nav ul li a {
     margin-right: 0px;
 }
 
+.intro-info, .about-info, .projects-info, .skills-info, .education-info, footer {
+    flex-shrink: 0;
+}
+
 .intro-info {
     height: 92vh;
     min-height: 80vh;
