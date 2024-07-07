@@ -9,13 +9,13 @@
   }
 
   .nav-text {
-    margin: 1.8rem 2vw 1vw 2vw;
+    margin: 5.5vw 2vw 1vw 2.3vw;
     font-size: 15px;
     font-weight: 700;
   }
 
   .nav-text::after {
-    bottom: -.5px; 
+    bottom: -.4px; 
   }
 
   .nav-icon-link {
@@ -34,11 +34,11 @@
   }
 
   .intro-description p {
-    font-size: 1.15em;
+    font-size: 1em;
   }
 
   .intro-description h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     margin-top: 4px;
   }
 
@@ -51,19 +51,18 @@
   }
 
   .intro-image {
-    max-width: 450px;
-    height: 32vh;
+    max-height: 350px;
+    max-width: 400px;
   }
 
   .about-info {
-    height: 85vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
   .about-images {
-    margin: 3vw 2vw 2vw 6vw;
+    margin: 9vw 2vw 2vw 6vw;
   }
 
   .about-image-one {
@@ -81,7 +80,7 @@
   }
 
   .about-description {
-    margin: 1.4vw 6vw 2vw 4vw;
+    margin: 1.4vw 6vw 4vw 4vw;
   }
 
   .about-description h2 {
@@ -91,7 +90,7 @@
 
   .about-description p {
     max-width: 500px;
-    margin-top: 1.5vw;
+    margin-top: 1vw;
     text-align: center;
     font-size: 1em;
   }
@@ -99,8 +98,6 @@
   .projects-info {
     flex-direction: column;
     align-items: center;
-
-    height: 70vh;
   }
 
   .projects-description {
@@ -111,12 +108,13 @@
   }
 
   .projects-description h2 {
+    margin-top: 9vw;
     font-size: 2em;
   }
 
   .projects-description p  {
     
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   .projects-button button {
@@ -132,14 +130,9 @@
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  .skills-info {
-    height: 115vh;
-   
-  }
 
   .skills-info h2 {
     margin-top: 9vw;
-
     font-size: 2em;
   }
 
@@ -149,6 +142,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 4vw;
   }
 
   .skills-box {
@@ -170,9 +164,6 @@
     font-size: 1em;
   }
 
-  .education-info {
-    height: 105vh;
-  }
 
   .education-info h2 {
     font-size: 2em;
@@ -198,6 +189,7 @@
 
   .education-box {
     padding: 2vw 3vw 1.5vw 3vw;
+    margin-bottom: 4vw;
     width: 50%;
   }
 
@@ -337,57 +329,4 @@
 /* default css is for mac 13inch screen */
 
 
-
-
-
-@media (min-width: 1500px) {
-  .intro-info {
-    height: 75vh;
-
-  }
-
-  .intro-image {
-    height: 50vh;
-  }
-
-  .about-info {
-    height: 50vh;
-  }
-
-  .projects-info {
-    height: 32vh;
-  }
-
-  .projects-description {
-    margin: 5vw 7vw 2vw 7vw;
-
-}
-
-  .projects-button {
-    margin: 3.5vw 7vw 2vw 7vw;
-  
-  }
-
-  .skills-info {
-    height: 50vh;
-  }
-
-  .education-info {
-    height: 60vh;
-  }
-
-  .info p {
-    margin-bottom: 2vw;
-
-  }
-
-  footer {
-    height: 27vh;
-  }
-
-  .footer {
-    margin-top: 1.5vw;
-  }
-
-}
 
